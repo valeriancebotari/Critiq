@@ -1,0 +1,2 @@
+# Critiq
+Example home page
