@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Critiq Bootstrap</title>
+    <script>document.documentElement.className="js";</script> 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    
+    </style>
+  </head>
+  <body>
+
+  <div class="container">
+      <div class="welcome pull-right dropdown">Welcome,
+        <a href="#" data-toggle="dropdown">Frank<span class="caret"></span></a> 
+        <ul class="dropdown-menu">
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-wrench"></span>
+               Settings
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-refresh"></span>
+               Update Profile
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-off"></span>
+               Sign Out
+            </a>
+          </li>
+        </ul>
+      </div><!-- end welcome -->
+
+       <nav class="navbar navbar-default" role="navigation" >
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+              <span class="sr-only">Toggle navigation</span> 
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>             
+           </button>
+           <a href="critiq-b.html" class="navbar-brand">
+             <img src="images/logo.png" alt="Critiq"> 
+           </a> 
+         </div><!-- end navbar-header -->
+
+         <div class="navbar-collapse collapse" id="example">
+           <form action="#" class="navbar-form navbar-left" role="search">
+              <div class="row">
+                 <div class="col-xs-6 col-sm-10 col-md-10" >
+                    <div class="form-group">
+                       <input type="text" class="form-control" placeholder="Enter your search">
+                    </div>                      
+                 </div>
+                                 
+                 <button type="submit" class="col-sm-2 col-md-2 btn btn-default">
+                   <span class="glyphicon glyphicon-search" ></span>
+                 </button>
+              </div><!-- end row -->
+           </form> 
+
+           <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">How it works<span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                   <li>
+                     <a href="#">First Step</a>
+                   </li>
+                   <li>
+                     <a href="#">Second Step</a>
+                   </li>
+                   <li>
+                     <a href="#">Third Step</a>
+                   </li>
+                   
+                 </ul>
+              </li>
+              <li><a href="#">Reviewers</a></li>
+              <li><a href="#">Workboard</a></li>             
+           </ul>
+         </div><!-- navbar-collapse -->
+       </nav>
+
+       <div class="row creative-work" >
+         <div class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0 text-center">
+           <h2>Get Your Creative Work Reviewed by <a href="#">Industry Professionals</a></h2>
+         </div>
+       </div> <!-- end row creative work -->
+
+       <div class="row" id="main">
+          <div class="col-sm-2">
+            <ul class="thumbnails">
+              <li class="selected">
+                <a href="#thumb1"><img src="images/thumbs/thumb1.jpg"  class="borders" alt="Thumb 1"><span class="arrow"></span></a>
+            </li>
+            <li>
+              <a href="#thumb2"><img src="images/thumbs/thumb2.jpg" class="borders" alt="Thumb 2"><span class="arrow"></span></a>
+            </li>
+            <li>
+              <a href="#thumb3"><img src="images/thumbs/thumb3.jpg" class="borders" alt="Thumb 3"><span class="arrow"></span></a>
+            </li>
+            <li>
+              <a href="#thumb4"><img src="images/thumbs/thumb4.jpg" class="borders" alt="Thumb 4"><span class="arrow"></span></a>
+            </li>
+          </ul>
+         </div>
+         <div class="clearfix visible-xs-block"></div>
+
+         <div class="col-sm-10">
+           <div id="thumb1" class="main-body">
+             <div class="profile row">
+                <div class="col-xs-4 col-sm-3">
+                  <img src="images/bodies/body1.jpg"  class="img-responsive borders" alt="Body1 Picture">
+                </div>
+                 
+                <div class="col-xs-8 col-sm-9">
+                   <div class="info">
+                      <h3><a href="#">Tiffany Kosel</a>,<span> VP, CP+B</span></h3>
+                      <p> When Tiffany was 8, she built an exact replica of Fenway Park out of toothpicks. After that, she went to Miami Ad School, broke into the industry, and became VP of one of the biggest ad agencies in the world. Not bad huh? She was attacked by a bear once.
+                      </p>
+                      <button type="submit" class="btn info-btn">Sign up for a review with Tiffany</button>    
+                   </div><!-- end info --> 
+                </div> 
+             </div> <!-- end profile -->
+                <hr class="hidden-xs">           
+                <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel1" class="carousel slide">
+                       <h4>Work shes done</h4>
+                       <ol class="carousel-indicators">
+                         <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                         <li data-target="#myCarousel1" data-slide-to="1"></li>
+                         <li data-target="#myCarousel1" data-slide-to="2"></li>
+                       </ol>
+                       <!-- Carousel items -->
+                       <div class="carousel-inner">
+                         <div class="item active">
+                            <div class="row">
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio11.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio12.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio13.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio14.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                            </div><!--/row-->
+                          </div> <!--/item-->
+
+                          <div class="item">
+                            <div class="row">
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio21.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio22.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio23.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio24.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                            </div><!--/row-->
+                          </div> <!--/item-->
+                          <div class="item">
+                            <div class="row">
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio31.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio32.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio33.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                              <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/first/portfolio34.jpg" alt="Image" class="img-responsive borders"></a>
+                              </div>
+                            </div><!--/row-->
+                          </div> <!--/item-->
+                       </div><!--/carousel-inner--> 
+                    </div> <!--/myCarousel-->
+                  </div>
+                </div><!-- end row -->
+            </div><!-- end thumb1 main-body div -->
+
+            <div id="thumb2" class="main-body">
+              <div class="profile row">
+                <div class="col-xs-4 col-sm-3">
+                   <img src="images/bodies/body2.jpg"  class="img-responsive borders" alt="Body1 Picture">
+                </div>
+                 
+                <div class="col-xs-8 col-sm-9">
+                   <div class="info">
+                      <h3><a href="#">Eric Snoozy</a>,<span> VP, CP+B</span></h3>
+                      <p> When Eric was 10, she built an exact replica of Fenway Park out of toothpicks. After that, she went to Miami Ad School, broke into the industry, and became VP of one of the biggest ad agencies in the world. Not bad huh? She was attacked by a bear once.
+                      </p>
+                      <button type="submit" class="btn info-btn">Sign up for a review with Eric</button>    
+                   </div><!-- end info --> 
+                </div> 
+              </div> <!-- end profile -->
+              <hr class="hidden-xs">           
+              <div class="row">
+              <div class="col-md-12">
+                  <div id="myCarousel2" class="carousel slide">
+                    <h4>Work shes done</h4>
+                    <ol class="carousel-indicators">
+                       <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                       <li data-target="#myCarousel2" data-slide-to="1"></li>
+                       <li data-target="#myCarousel2" data-slide-to="2"></li>
+                    </ol>
+                      <!-- Carousel items -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio11.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio12.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio13.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio14.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div> <!--/row-->
+                      </div> <!--/item-->
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio21.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio22.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio23.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio24.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div><!--/row-->
+                      </div> <!--/item-->
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio31.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio32.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio33.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/second/portfolio34.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div> <!--/row-->
+                      </div> <!--/item-->
+                    </div> <!--/carousel-inner--> 
+                  </div>  <!--/myCarousel2-->
+                </div>
+              </div>
+            </div><!-- end thumb2 main-body div -->
+
+            <div id="thumb3" class="main-body">
+              <div class="profile row">
+                <div class="col-xs-4 col-sm-3">
+                  <img src="images/bodies/body3.jpg"  class="img-responsive borders" alt="Body3 Picture">
+                </div>
+                 
+                <div class="col-xs-8 col-sm-9">
+                   <div class="info">
+                      <h3><a href="#">Elvira Sanchez</a>,<span> VP, CP+B</span></h3>
+                      <p> When Elvira was 8, she built an exact replica of Fenway Park out of toothpicks. After that, she went to Miami Ad School, broke into the industry, and became VP of one of the biggest ad agencies in the world. Not bad huh? She was attacked by a bear once.
+                      </p>
+                      <button type="submit" class="btn info-btn">Sign up for a review with Elvira</button>    
+                   </div><!-- end info --> 
+                </div> 
+              </div> <!-- end profile -->
+              <hr class="hidden-xs">           
+              <div class="row">
+              <div class="col-md-12">
+                  <div id="myCarousel3" class="carousel slide">
+                    <h4 style="float: left;">Work shes done</h4>
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel3" data-slide-to="1"></li>
+                      <li data-target="#myCarousel3" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio11.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio12.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio13.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio14.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div> <!--/row-->
+                      </div> <!--/item-->
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio21.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio22.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio23.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio24.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div> <!--/row-->
+                      </div> <!--/item-->
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio31.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio32.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio33.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/third/portfolio34.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div> <!--/row-->
+                      </div> <!--/item-->
+                    </div>  <!--/carousel-inner--> 
+                  </div> <!--/myCarousel3 -->
+                </div>
+              </div>
+            </div><!-- end thumb3 main-body div -->
+
+            <div id="thumb4" class="main-body">
+             <div class="profile row">
+                <div class="col-xs-4 col-sm-3">
+                  <img src="images/bodies/body4.jpg"  class="img-responsive borders" alt="Body1 Picture">
+                </div>
+                 
+                <div class="col-xs-8 col-sm-9">
+                   <div class="info">
+                      <h3><a href="#">John Milton</a>,<span> VP, CP+B</span></h3>
+                      <p> When John was 8, she built an exact replica of Fenway Park out of toothpicks. After that, she went to Miami Ad School, broke into the industry, and became VP of one of the biggest ad agencies in the world. Not bad huh? She was attacked by a bear once.
+                      </p>
+                      <button type="submit" class="btn info-btn">Sign up for a review with John</button>    
+                   </div><!-- end info --> 
+                </div> 
+             </div> <!-- end profile -->
+             <hr class="hidden-xs">           
+             <div class="row">
+              <div class="col-md-12">
+                  <div id="myCarousel4" class="carousel slide">
+                    <h4>Work shes done</h4>
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel4" data-slide-to="1"></li>
+                      <li data-target="#myCarousel4" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio11.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio12.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio13.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio14.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div> <!--/row-->
+                      </div> <!--/item-->
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio21.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio22.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio23.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio24.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div> <!--/row-->
+                      </div> <!--/item-->
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio31.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio32.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio33.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                          <div class="col-xs-6 col-sm-3"><a href="#"><img src="images/portfolio/fourth/portfolio34.jpg" alt="Image" class="img-responsive borders"></a>
+                          </div>
+                        </div> <!--/row-->
+                      </div> <!--/item-->
+                    </div>  <!--/carousel-inner--> 
+                  </div> <!--/myCarousel4 -->
+                </div><!-- col-md-12-->
+              </div><!-- end row-->
+            </div><!--end thumb4 -->
+          </div><!-- end col-sm-10 -->
+        </div> <!-- end row main -->
+    </div><!-- end container -->
+
+    <div class="signup">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-7 col-sm-offset-1">
+            <h2 class="text-center">
+              Take 30 seconds to <a href="#" title="signup">sign up for free</a>
+              and be on your way to a better book
+            </h2> 
+          </div>
+          <div class="col-xs-12 col-sm-3 col-sm-offset-1 get-started">
+            <button type="submit" class="btn info-btn" data-toggle="modal" data-target="#myModal">Get Started</button>
+             <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times; </button>
+                    <h4 class="modal-title" id="myModalLabel">Get Started</h4>
+                  </div><!-- end modal-header -->  
+                  <div class="modal-body">
+                     <form role="form">
+                        <div class="form-group">
+                          <label for="inputName">Name</label>
+                          <input type="text" id="inputName" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputEmail">Email</label>
+                          <input type="text" id="inputEmail" class="form-control" placeholder="Enter your email">
+                        </div>
+                     </form>
+                  </div><!-- end modal-body -->
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-default">Submit</button>
+                     <button type="button" class="btn btn-default close_button" data-dismiss="modal">Close</button>                     
+                  </div><!-- end modal-footer -->
+                </div><!-- end modal-content -->
+              </div><!-- end modal-dialog -->
+            </div><!-- end modal -->
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </div><!-- end signup  -->
+
+    <div class="row main-info">
+      <div class="container">
+        <div class="row">
+          <section class="col-xs-12 col-sm-6 how-it-works">
+            <h3 class="text-center">How It Works</h3>
+            <ul>
+              <li>
+                <a href="#"><span>1</span> Choose a reviewer</a>
+              </li>
+              <li>
+                <a href="#"><span>2</span> Upload + Present your work</a>
+              </li>
+              <li>
+                <a href="#"><span>3</span> Get Professional Feedback</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="col-xs-12 col-sm-6 workboard">
+             <h3 class="text-center">Workboard</h3>
+             <ul class="row">
+               
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work1.jpg" class="borders" alt="Work 1"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work2.jpg" class="borders" alt="Work 2"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work3.jpg" class="borders" alt="Work 3"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work4.jpg" class="borders" alt="Work 4"></a>
+                </li> 
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work5.jpg" class="borders" alt="Work 5"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work6.jpg" class="borders" alt="Work 6"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work7.jpg" class="borders" alt="Work 7"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work8.jpg" class="borders" alt="Work 8"></a>
+                </li>  
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work1.jpg" class="borders" alt="Work 9"></a>
+                </li>
+                 <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work2.jpg" class="borders" alt="Work 10"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work3.jpg" class="borders" alt="Work 11"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work4.jpg" class="borders" alt="Work 12"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work5.jpg" class="borders" alt="Work 13"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work6.jpg" class="borders" alt="Work 14"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work7.jpg" class="borders" alt="Work 15"></a>
+                </li>
+                <li class="col-xs-3 col-sm-3">
+                   <a href="#"><img src="images/workboard/work8.jpg" class="borders" alt="Work 16"></a>
+                </li>
+             </ul>
+          </section><!--  end workboard -->
+         </div> <!-- end row -->
+        </div> <!-- end container -->
+      </div><!-- end row main-info -->
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+               <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Terms &amp; Conditions</a></li>
+                  <li><a href="#">Privacy</a></li>
+               </ul> 
+            </div>
+          </div><!-- end row -->
+        </div><!-- end container -->
+       </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
