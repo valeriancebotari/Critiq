@@ -1,2 +1,2 @@
 # Critiq
-Example home page
+Example home page  https://valeriancebotari.github.io/Critiq/
